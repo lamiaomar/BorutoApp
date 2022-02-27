@@ -73,9 +73,9 @@ fun Splash(rotate: Float) {
     }
 
 }
-//
-//@Composable
-//@Preview
-//fun SplashScreenPreview() {
-//    Splash(0f)
-//}
+
+@Composable
+@Preview
+fun SplashScreenPreview() {
+    Splash(0f)
+}
