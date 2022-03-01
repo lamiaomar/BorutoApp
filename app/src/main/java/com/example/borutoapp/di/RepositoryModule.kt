@@ -31,8 +31,10 @@ object RepositoryModule {
     fun provideUseCases(repository: Repository): UseCases{
         return UseCases(
             saveOnBoardingUseCase = SaveOnBoardingUseCase(repository),
+
             readOnBoardingUseCase = ReadOnBoardingUseCase(repository)
         )
+
     }
 
 }
